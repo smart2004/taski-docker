@@ -1,4 +1,4 @@
-# backend/api/tests.py
+"""Tests file."""
 
 from http import HTTPStatus
 
@@ -8,7 +8,10 @@ from django.test import Client, TestCase
 
 
 class TaskiAPITestCase(TestCase):
+    """TaskAPITestCase class."""
+
     def setUp(self):
+        """Метод."""
         self.guest_client = Client()
 
     def test_list_exists(self):

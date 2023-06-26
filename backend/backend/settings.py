@@ -1,3 +1,5 @@
+"""Settings file."""
+
 import os
 from pathlib import Path
 
